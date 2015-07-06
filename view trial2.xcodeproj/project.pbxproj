@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E779B121B450C1E00CF9DE0 /* itemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E779B111B450C1E00CF9DE0 /* itemViewController.swift */; };
 		0EA966D61B44EF4000A48B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA966D51B44EF4000A48B2D /* AppDelegate.swift */; };
 		0EA966D81B44EF4000A48B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA966D71B44EF4000A48B2D /* ViewController.swift */; };
 		0EA966DB1B44EF4000A48B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA966D91B44EF4000A48B2D /* Main.storyboard */; };
 		0EA966DD1B44EF4000A48B2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA966DC1B44EF4000A48B2D /* Images.xcassets */; };
 		0EA966E01B44EF4000A48B2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA966DE1B44EF4000A48B2D /* LaunchScreen.xib */; };
 		0EA966EC1B44EF4000A48B2D /* view_trial2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA966EB1B44EF4000A48B2D /* view_trial2Tests.swift */; };
+		0EA966F61B44F1C200A48B2D /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA966F51B44F1C200A48B2D /* cameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E779B111B450C1E00CF9DE0 /* itemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemViewController.swift; sourceTree = "<group>"; };
 		0EA966D01B44EF4000A48B2D /* view trial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "view trial2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA966D41B44EF4000A48B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA966D51B44EF4000A48B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		0EA966E51B44EF4000A48B2D /* view trial2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "view trial2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA966EA1B44EF4000A48B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA966EB1B44EF4000A48B2D /* view_trial2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view_trial2Tests.swift; sourceTree = "<group>"; };
+		0EA966F51B44F1C200A48B2D /* cameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				0EA966DC1B44EF4000A48B2D /* Images.xcassets */,
 				0EA966DE1B44EF4000A48B2D /* LaunchScreen.xib */,
 				0EA966D31B44EF4000A48B2D /* Supporting Files */,
+				0EA966F51B44F1C200A48B2D /* cameraViewController.swift */,
+				0E779B111B450C1E00CF9DE0 /* itemViewController.swift */,
 			);
 			path = "view trial2";
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA966D81B44EF4000A48B2D /* ViewController.swift in Sources */,
+				0E779B121B450C1E00CF9DE0 /* itemViewController.swift in Sources */,
+				0EA966F61B44F1C200A48B2D /* cameraViewController.swift in Sources */,
 				0EA966D61B44EF4000A48B2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				0EA966F11B44EF4000A48B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EA966F21B44EF4000A48B2D /* Build configuration list for PBXNativeTarget "view trial2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				0EA966F41B44EF4000A48B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
